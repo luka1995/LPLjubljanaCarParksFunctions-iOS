@@ -4,6 +4,8 @@ LPLjubljanaCarParksFunctions is an iOS library that provides easy access to car 
 
 http://www.lpt.si/parkirisca
 
+![ScreenShots](ScreenShots/img1.png)
+
 Created by Luka Penger
 http://lukapenger.eu
 

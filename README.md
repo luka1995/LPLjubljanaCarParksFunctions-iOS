@@ -9,6 +9,12 @@ http://www.lpt.si/parkirisca
 Created by Luka Penger
 http://lukapenger.eu
 
+### Requirements
+
+* Xcode 5.0 or later
+* iOS 7.0 or later
+* [Cocoapods](http://cocoapods.org)
+
 #Usage
 
 If you'd like to include this component as a pod using CocoaPods, just add the following line to your Podfile:

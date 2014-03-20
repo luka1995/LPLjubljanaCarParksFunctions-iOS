@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C06AD8D18DA324D009E5987 /* LPLjubljanaCarParksOccupancyFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C06AD8C18DA324D009E5987 /* LPLjubljanaCarParksOccupancyFunctions.m */; };
+		0C06AD9618DA376A009E5987 /* LPLjubljanaCarPark.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C06AD9318DA376A009E5987 /* LPLjubljanaCarPark.m */; };
+		0C06AD9718DA376A009E5987 /* LPLjubljanaCarParkOccupancy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C06AD9518DA376A009E5987 /* LPLjubljanaCarParkOccupancy.m */; };
+		0C06AD9D18DA3772009E5987 /* LPAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C06AD9A18DA3772009E5987 /* LPAnnotation.m */; };
+		0C06AD9E18DA3772009E5987 /* LPAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C06AD9C18DA3772009E5987 /* LPAnnotationView.m */; };
+		0C31C58318D63C6A006AC8B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C31C58218D63C6A006AC8B4 /* Foundation.framework */; };
+		0C31C58518D63C6A006AC8B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C31C58418D63C6A006AC8B4 /* CoreGraphics.framework */; };
+		0C31C58718D63C6A006AC8B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C31C58618D63C6A006AC8B4 /* UIKit.framework */; };
+		0C31C58D18D63C6A006AC8B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0C31C58B18D63C6A006AC8B4 /* InfoPlist.strings */; };
+		0C31C58F18D63C6A006AC8B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C31C58E18D63C6A006AC8B4 /* main.m */; };
+		0C31C59318D63C6A006AC8B4 /* LPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C31C59218D63C6A006AC8B4 /* LPAppDelegate.m */; };
+		0C31C59518D63C6A006AC8B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C31C59418D63C6A006AC8B4 /* Images.xcassets */; };
+		0C31C59C18D63C6A006AC8B4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C31C59B18D63C6A006AC8B4 /* XCTest.framework */; };
+		0C31C59D18D63C6A006AC8B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C31C58218D63C6A006AC8B4 /* Foundation.framework */; };
+		0C31C59E18D63C6A006AC8B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C31C58618D63C6A006AC8B4 /* UIKit.framework */; };
+		0C31C5B418D63CC2006AC8B4 /* LPMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C31C5B218D63CC2006AC8B4 /* LPMainViewController.m */; };
+		0C31C5B518D63CC2006AC8B4 /* LPMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C31C5B318D63CC2006AC8B4 /* LPMainViewController.xib */; };
+		0C31C67018D63F3B006AC8B4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C31C66F18D63F3B006AC8B4 /* SystemConfiguration.framework */; };
+		0C31C68518D63F65006AC8B4 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C31C67318D63F65006AC8B4 /* AFHTTPClient.m */; };
+		0C31C68618D63F65006AC8B4 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C31C67518D63F65006AC8B4 /* AFHTTPRequestOperation.m */; };
+		0C31C68718D63F65006AC8B4 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C31C67718D63F65006AC8B4 /* AFImageRequestOperation.m */; };
+		0C31C68818D63F65006AC8B4 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C31C67918D63F65006AC8B4 /* AFJSONRequestOperation.m */; };
+		0C31C68918D63F65006AC8B4 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C31C67B18D63F65006AC8B4 /* AFNetworkActivityIndicatorManager.m */; };
+		0C31C68A18D63F65006AC8B4 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C31C67E18D63F65006AC8B4 /* AFPropertyListRequestOperation.m */; };
+		0C31C68B18D63F65006AC8B4 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C31C68018D63F65006AC8B4 /* AFURLConnectionOperation.m */; };
+		0C31C68C18D63F65006AC8B4 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C31C68218D63F65006AC8B4 /* AFXMLRequestOperation.m */; };
+		0C31C68D18D63F65006AC8B4 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C31C68418D63F65006AC8B4 /* UIImageView+AFNetworking.m */; };
+		0C31C69118D75B29006AC8B4 /* LPLjubljanaCarParksFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C31C69018D75B29006AC8B4 /* LPLjubljanaCarParksFunctions.m */; };
+		0C31C69718DA088E006AC8B4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C31C69618DA088E006AC8B4 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C31C59F18D63C6A006AC8B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C31C57718D63C6A006AC8B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C31C57E18D63C6A006AC8B4;
+			remoteInfo = LPCarParksExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C06AD8B18DA324D009E5987 /* LPLjubljanaCarParksOccupancyFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPLjubljanaCarParksOccupancyFunctions.h; sourceTree = "<group>"; };
+		0C06AD8C18DA324D009E5987 /* LPLjubljanaCarParksOccupancyFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPLjubljanaCarParksOccupancyFunctions.m; sourceTree = "<group>"; };
+		0C06AD9218DA376A009E5987 /* LPLjubljanaCarPark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPLjubljanaCarPark.h; sourceTree = "<group>"; };
+		0C06AD9318DA376A009E5987 /* LPLjubljanaCarPark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPLjubljanaCarPark.m; sourceTree = "<group>"; };
+		0C06AD9418DA376A009E5987 /* LPLjubljanaCarParkOccupancy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPLjubljanaCarParkOccupancy.h; sourceTree = "<group>"; };
+		0C06AD9518DA376A009E5987 /* LPLjubljanaCarParkOccupancy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPLjubljanaCarParkOccupancy.m; sourceTree = "<group>"; };
+		0C06AD9918DA3772009E5987 /* LPAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPAnnotation.h; sourceTree = "<group>"; };
+		0C06AD9A18DA3772009E5987 /* LPAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPAnnotation.m; sourceTree = "<group>"; };
+		0C06AD9B18DA3772009E5987 /* LPAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPAnnotationView.h; sourceTree = "<group>"; };
+		0C06AD9C18DA3772009E5987 /* LPAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPAnnotationView.m; sourceTree = "<group>"; };
+		0C31C57F18D63C6A006AC8B4 /* LPCarParksExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LPCarParksExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C31C58218D63C6A006AC8B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0C31C58418D63C6A006AC8B4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0C31C58618D63C6A006AC8B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0C31C58A18D63C6A006AC8B4 /* LPCarParksExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LPCarParksExample-Info.plist"; sourceTree = "<group>"; };
+		0C31C58C18D63C6A006AC8B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0C31C58E18D63C6A006AC8B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C31C59018D63C6A006AC8B4 /* LPCarParksExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LPCarParksExample-Prefix.pch"; sourceTree = "<group>"; };
+		0C31C59118D63C6A006AC8B4 /* LPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPAppDelegate.h; sourceTree = "<group>"; };
+		0C31C59218D63C6A006AC8B4 /* LPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPAppDelegate.m; sourceTree = "<group>"; };
+		0C31C59418D63C6A006AC8B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0C31C59A18D63C6A006AC8B4 /* LPCarParksExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LPCarParksExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C31C59B18D63C6A006AC8B4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0C31C5B118D63CC2006AC8B4 /* LPMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPMainViewController.h; sourceTree = "<group>"; };
+		0C31C5B218D63CC2006AC8B4 /* LPMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPMainViewController.m; sourceTree = "<group>"; };
+		0C31C5B318D63CC2006AC8B4 /* LPMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LPMainViewController.xib; sourceTree = "<group>"; };
+		0C31C66F18D63F3B006AC8B4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0C31C67218D63F65006AC8B4 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		0C31C67318D63F65006AC8B4 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		0C31C67418D63F65006AC8B4 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		0C31C67518D63F65006AC8B4 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		0C31C67618D63F65006AC8B4 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		0C31C67718D63F65006AC8B4 /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		0C31C67818D63F65006AC8B4 /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		0C31C67918D63F65006AC8B4 /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		0C31C67A18D63F65006AC8B4 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		0C31C67B18D63F65006AC8B4 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		0C31C67C18D63F65006AC8B4 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		0C31C67D18D63F65006AC8B4 /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		0C31C67E18D63F65006AC8B4 /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		0C31C67F18D63F65006AC8B4 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		0C31C68018D63F65006AC8B4 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		0C31C68118D63F65006AC8B4 /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		0C31C68218D63F65006AC8B4 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		0C31C68318D63F65006AC8B4 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		0C31C68418D63F65006AC8B4 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		0C31C68F18D75B29006AC8B4 /* LPLjubljanaCarParksFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPLjubljanaCarParksFunctions.h; sourceTree = "<group>"; };
+		0C31C69018D75B29006AC8B4 /* LPLjubljanaCarParksFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPLjubljanaCarParksFunctions.m; sourceTree = "<group>"; };
+		0C31C69618DA088E006AC8B4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C31C57C18D63C6A006AC8B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C31C69718DA088E006AC8B4 /* MapKit.framework in Frameworks */,
+				0C31C67018D63F3B006AC8B4 /* SystemConfiguration.framework in Frameworks */,
+				0C31C58518D63C6A006AC8B4 /* CoreGraphics.framework in Frameworks */,
+				0C31C58718D63C6A006AC8B4 /* UIKit.framework in Frameworks */,
+				0C31C58318D63C6A006AC8B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C31C59718D63C6A006AC8B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C31C59C18D63C6A006AC8B4 /* XCTest.framework in Frameworks */,
+				0C31C59E18D63C6A006AC8B4 /* UIKit.framework in Frameworks */,
+				0C31C59D18D63C6A006AC8B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C06AD9118DA376A009E5987 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				0C06AD9218DA376A009E5987 /* LPLjubljanaCarPark.h */,
+				0C06AD9318DA376A009E5987 /* LPLjubljanaCarPark.m */,
+				0C06AD9418DA376A009E5987 /* LPLjubljanaCarParkOccupancy.h */,
+				0C06AD9518DA376A009E5987 /* LPLjubljanaCarParkOccupancy.m */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		0C06AD9818DA3772009E5987 /* LPAnnotation */ = {
+			isa = PBXGroup;
+			children = (
+				0C06AD9918DA3772009E5987 /* LPAnnotation.h */,
+				0C06AD9A18DA3772009E5987 /* LPAnnotation.m */,
+				0C06AD9B18DA3772009E5987 /* LPAnnotationView.h */,
+				0C06AD9C18DA3772009E5987 /* LPAnnotationView.m */,
+			);
+			path = LPAnnotation;
+			sourceTree = "<group>";
+		};
+		0C31C57618D63C6A006AC8B4 = {
+			isa = PBXGroup;
+			children = (
+				0C31C67118D63F65006AC8B4 /* AFNetworking */,
+				0C31C58818D63C6A006AC8B4 /* LPCarParksExample */,
+				0C31C58118D63C6A006AC8B4 /* Frameworks */,
+				0C31C58018D63C6A006AC8B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C31C58018D63C6A006AC8B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C31C57F18D63C6A006AC8B4 /* LPCarParksExample.app */,
+				0C31C59A18D63C6A006AC8B4 /* LPCarParksExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C31C58118D63C6A006AC8B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C31C69618DA088E006AC8B4 /* MapKit.framework */,
+				0C31C66F18D63F3B006AC8B4 /* SystemConfiguration.framework */,
+				0C31C58218D63C6A006AC8B4 /* Foundation.framework */,
+				0C31C58418D63C6A006AC8B4 /* CoreGraphics.framework */,
+				0C31C58618D63C6A006AC8B4 /* UIKit.framework */,
+				0C31C59B18D63C6A006AC8B4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0C31C58818D63C6A006AC8B4 /* LPCarParksExample */ = {
+			isa = PBXGroup;
+			children = (
+				0C06AD9818DA3772009E5987 /* LPAnnotation */,
+				0C31C68E18D75B18006AC8B4 /* LPLjubljanaCarParksFunctions */,
+				0C31C5B118D63CC2006AC8B4 /* LPMainViewController.h */,
+				0C31C5B218D63CC2006AC8B4 /* LPMainViewController.m */,
+				0C31C5B318D63CC2006AC8B4 /* LPMainViewController.xib */,
+				0C31C59118D63C6A006AC8B4 /* LPAppDelegate.h */,
+				0C31C59218D63C6A006AC8B4 /* LPAppDelegate.m */,
+				0C31C59418D63C6A006AC8B4 /* Images.xcassets */,
+				0C31C58918D63C6A006AC8B4 /* Supporting Files */,
+			);
+			path = LPCarParksExample;
+			sourceTree = "<group>";
+		};
+		0C31C58918D63C6A006AC8B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C31C58A18D63C6A006AC8B4 /* LPCarParksExample-Info.plist */,
+				0C31C58B18D63C6A006AC8B4 /* InfoPlist.strings */,
+				0C31C58E18D63C6A006AC8B4 /* main.m */,
+				0C31C59018D63C6A006AC8B4 /* LPCarParksExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0C31C67118D63F65006AC8B4 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				0C31C67218D63F65006AC8B4 /* AFHTTPClient.h */,
+				0C31C67318D63F65006AC8B4 /* AFHTTPClient.m */,
+				0C31C67418D63F65006AC8B4 /* AFHTTPRequestOperation.h */,
+				0C31C67518D63F65006AC8B4 /* AFHTTPRequestOperation.m */,
+				0C31C67618D63F65006AC8B4 /* AFImageRequestOperation.h */,
+				0C31C67718D63F65006AC8B4 /* AFImageRequestOperation.m */,
+				0C31C67818D63F65006AC8B4 /* AFJSONRequestOperation.h */,
+				0C31C67918D63F65006AC8B4 /* AFJSONRequestOperation.m */,
+				0C31C67A18D63F65006AC8B4 /* AFNetworkActivityIndicatorManager.h */,
+				0C31C67B18D63F65006AC8B4 /* AFNetworkActivityIndicatorManager.m */,
+				0C31C67C18D63F65006AC8B4 /* AFNetworking.h */,
+				0C31C67D18D63F65006AC8B4 /* AFPropertyListRequestOperation.h */,
+				0C31C67E18D63F65006AC8B4 /* AFPropertyListRequestOperation.m */,
+				0C31C67F18D63F65006AC8B4 /* AFURLConnectionOperation.h */,
+				0C31C68018D63F65006AC8B4 /* AFURLConnectionOperation.m */,
+				0C31C68118D63F65006AC8B4 /* AFXMLRequestOperation.h */,
+				0C31C68218D63F65006AC8B4 /* AFXMLRequestOperation.m */,
+				0C31C68318D63F65006AC8B4 /* UIImageView+AFNetworking.h */,
+				0C31C68418D63F65006AC8B4 /* UIImageView+AFNetworking.m */,
+			);
+			name = AFNetworking;
+			path = ../AFNetworking/AFNetworking;
+			sourceTree = "<group>";
+		};
+		0C31C68E18D75B18006AC8B4 /* LPLjubljanaCarParksFunctions */ = {
+			isa = PBXGroup;
+			children = (
+				0C06AD9118DA376A009E5987 /* Objects */,
+				0C06AD8B18DA324D009E5987 /* LPLjubljanaCarParksOccupancyFunctions.h */,
+				0C06AD8C18DA324D009E5987 /* LPLjubljanaCarParksOccupancyFunctions.m */,
+				0C31C68F18D75B29006AC8B4 /* LPLjubljanaCarParksFunctions.h */,
+				0C31C69018D75B29006AC8B4 /* LPLjubljanaCarParksFunctions.m */,
+			);
+			name = LPLjubljanaCarParksFunctions;
+			path = ../../../LPLjubljanaCarParksFunctions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C31C57E18D63C6A006AC8B4 /* LPCarParksExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C31C5AB18D63C6A006AC8B4 /* Build configuration list for PBXNativeTarget "LPCarParksExample" */;
+			buildPhases = (
+				0C31C57B18D63C6A006AC8B4 /* Sources */,
+				0C31C57C18D63C6A006AC8B4 /* Frameworks */,
+				0C31C57D18D63C6A006AC8B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LPCarParksExample;
+			productName = LPCarParksExample;
+			productReference = 0C31C57F18D63C6A006AC8B4 /* LPCarParksExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C31C59918D63C6A006AC8B4 /* LPCarParksExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C31C5AE18D63C6A006AC8B4 /* Build configuration list for PBXNativeTarget "LPCarParksExampleTests" */;
+			buildPhases = (
+				0C31C59618D63C6A006AC8B4 /* Sources */,
+				0C31C59718D63C6A006AC8B4 /* Frameworks */,
+				0C31C59818D63C6A006AC8B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C31C5A018D63C6A006AC8B4 /* PBXTargetDependency */,
+			);
+			name = LPCarParksExampleTests;
+			productName = LPCarParksExampleTests;
+			productReference = 0C31C59A18D63C6A006AC8B4 /* LPCarParksExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C31C57718D63C6A006AC8B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Luka Penger";
+				TargetAttributes = {
+					0C31C57E18D63C6A006AC8B4 = {
+						DevelopmentTeam = VD448M8BPE;
+					};
+					0C31C59918D63C6A006AC8B4 = {
+						TestTargetID = 0C31C57E18D63C6A006AC8B4;
+					};
+				};
+			};
+			buildConfigurationList = 0C31C57A18D63C6A006AC8B4 /* Build configuration list for PBXProject "LPCarParksExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0C31C57618D63C6A006AC8B4;
+			productRefGroup = 0C31C58018D63C6A006AC8B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C31C57E18D63C6A006AC8B4 /* LPCarParksExample */,
+				0C31C59918D63C6A006AC8B4 /* LPCarParksExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C31C57D18D63C6A006AC8B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C31C58D18D63C6A006AC8B4 /* InfoPlist.strings in Resources */,
+				0C31C5B518D63CC2006AC8B4 /* LPMainViewController.xib in Resources */,
+				0C31C59518D63C6A006AC8B4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C31C59818D63C6A006AC8B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C31C57B18D63C6A006AC8B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C06AD9D18DA3772009E5987 /* LPAnnotation.m in Sources */,
+				0C06AD9718DA376A009E5987 /* LPLjubljanaCarParkOccupancy.m in Sources */,
+				0C31C68718D63F65006AC8B4 /* AFImageRequestOperation.m in Sources */,
+				0C31C59318D63C6A006AC8B4 /* LPAppDelegate.m in Sources */,
+				0C31C68A18D63F65006AC8B4 /* AFPropertyListRequestOperation.m in Sources */,
+				0C31C5B418D63CC2006AC8B4 /* LPMainViewController.m in Sources */,
+				0C06AD8D18DA324D009E5987 /* LPLjubljanaCarParksOccupancyFunctions.m in Sources */,
+				0C06AD9618DA376A009E5987 /* LPLjubljanaCarPark.m in Sources */,
+				0C31C68B18D63F65006AC8B4 /* AFURLConnectionOperation.m in Sources */,
+				0C31C68C18D63F65006AC8B4 /* AFXMLRequestOperation.m in Sources */,
+				0C31C68818D63F65006AC8B4 /* AFJSONRequestOperation.m in Sources */,
+				0C31C68D18D63F65006AC8B4 /* UIImageView+AFNetworking.m in Sources */,
+				0C31C68918D63F65006AC8B4 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				0C31C68618D63F65006AC8B4 /* AFHTTPRequestOperation.m in Sources */,
+				0C31C58F18D63C6A006AC8B4 /* main.m in Sources */,
+				0C06AD9E18DA3772009E5987 /* LPAnnotationView.m in Sources */,
+				0C31C68518D63F65006AC8B4 /* AFHTTPClient.m in Sources */,
+				0C31C69118D75B29006AC8B4 /* LPLjubljanaCarParksFunctions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C31C59618D63C6A006AC8B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C31C5A018D63C6A006AC8B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C31C57E18D63C6A006AC8B4 /* LPCarParksExample */;
+			targetProxy = 0C31C59F18D63C6A006AC8B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0C31C58B18D63C6A006AC8B4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C31C58C18D63C6A006AC8B4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C31C5A918D63C6A006AC8B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0C31C5AA18D63C6A006AC8B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C31C5AC18D63C6A006AC8B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LPCarParksExample/LPCarParksExample-Prefix.pch";
+				INFOPLIST_FILE = "LPCarParksExample/LPCarParksExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0C31C5AD18D63C6A006AC8B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LPCarParksExample/LPCarParksExample-Prefix.pch";
+				INFOPLIST_FILE = "LPCarParksExample/LPCarParksExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0C31C5AF18D63C6A006AC8B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LPCarParksExample.app/LPCarParksExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LPCarParksExample/LPCarParksExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LPCarParksExampleTests/LPCarParksExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0C31C5B018D63C6A006AC8B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LPCarParksExample.app/LPCarParksExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LPCarParksExample/LPCarParksExample-Prefix.pch";
+				INFOPLIST_FILE = "LPCarParksExampleTests/LPCarParksExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C31C57A18D63C6A006AC8B4 /* Build configuration list for PBXProject "LPCarParksExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C31C5A918D63C6A006AC8B4 /* Debug */,
+				0C31C5AA18D63C6A006AC8B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C31C5AB18D63C6A006AC8B4 /* Build configuration list for PBXNativeTarget "LPCarParksExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C31C5AC18D63C6A006AC8B4 /* Debug */,
+				0C31C5AD18D63C6A006AC8B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C31C5AE18D63C6A006AC8B4 /* Build configuration list for PBXNativeTarget "LPCarParksExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C31C5AF18D63C6A006AC8B4 /* Debug */,
+				0C31C5B018D63C6A006AC8B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C31C57718D63C6A006AC8B4 /* Project object */;
+}

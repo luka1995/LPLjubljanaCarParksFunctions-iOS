@@ -9,7 +9,7 @@ http://www.lpt.si/parkirisca
 Created by Luka Penger
 http://lukapenger.eu
 
-### Requirements
+#Requirements
 
 * Xcode 5.0 or later
 * iOS 7.0 or later

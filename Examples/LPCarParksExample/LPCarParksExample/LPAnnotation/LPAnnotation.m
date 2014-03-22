@@ -41,6 +41,7 @@
     if (self) {
         self.carPark = carPark;
         self.coordinate = CLLocationCoordinate2DMake(carPark.latitude, carPark.longitude);
+        self.title = carPark.name;
         self.subtitle = carPark.parkDescription;
     }
     

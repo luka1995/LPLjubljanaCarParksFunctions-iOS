@@ -9,19 +9,19 @@ http://www.lpt.si/parkirisca
 Created by Luka Penger
 http://lukapenger.eu
 
-#Requirements
+##Requirements
 
 * Xcode 5.0 or later
 * iOS 7.0 or later
 * [Cocoapods](http://cocoapods.org)
 
-#Usage
+##Usage
 
 If you'd like to include this component as a pod using CocoaPods, just add the following line to your Podfile:
 
 `pod "LPLjubljanaCarParksFunctions"`
 
-#ARC
+##ARC
 
 LPLjubljanaCarParksFunctions uses ARC (Automatic Reference Counting).
 
@@ -29,7 +29,7 @@ If you are using LPLjubljanaCarParksFunctions in your non-arc project, you will 
 
 To set a compiler flag in Xcode, go to your active target and select the "Build Phases" tab. Now select all LPLjubljanaCarParksFunctions source files, press Enter, insert `-fobjc-arc` and then "Done" to disable ARC for LPLjubljanaCarParksFunctions.
 
-#Uses Frameworks - Libraries
+##Uses Frameworks - Libraries
 
 * UIKit.framework
 * Foundation.framework
@@ -37,7 +37,7 @@ To set a compiler flag in Xcode, go to your active target and select the "Build 
 LPLjubljanaCarParksFunctions uses AFNetworking library for networking.
 https://github.com/AFNetworking/AFNetworking
 
-#Delegate methods
+##Delegate methods
 
 ```objective-c
 - (void)ljubljanaCarParksFunctionsWillLoadParks:(LPLjubljanaCarParksFunctions *)ljubljanaCarParksFunctions;

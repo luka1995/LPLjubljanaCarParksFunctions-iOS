@@ -29,7 +29,7 @@ If you are using LPLjubljanaCarParksFunctions in your non-arc project, you will 
 
 To set a compiler flag in Xcode, go to your active target and select the "Build Phases" tab. Now select all LPLjubljanaCarParksFunctions source files, press Enter, insert `-fobjc-arc` and then "Done" to disable ARC for LPLjubljanaCarParksFunctions.
 
-##Uses Frameworks - Libraries
+##Uses Frameworks
 
 * UIKit.framework
 * Foundation.framework

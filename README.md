@@ -13,7 +13,7 @@ http://lukapenger.eu
 
 * Xcode 5.0 or later
 * iOS 7.0 or later
-* [Cocoapods](http://cocoapods.org)
+* [CocoaPods](http://cocoapods.org)
 
 ##Usage
 

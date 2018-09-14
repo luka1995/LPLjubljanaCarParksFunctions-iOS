@@ -1,4 +1,4 @@
-#LPLjubljanaCarParksFunctions
+# LPLjubljanaCarParksFunctions
 
 LPLjubljanaCarParksFunctions is an iOS library that provides easy access to car parks in Ljubljana.
 
@@ -9,19 +9,19 @@ http://www.lpt.si/parkirisca
 Created by Luka Penger
 http://lukapenger.eu
 
-##Requirements
+## Requirements
 
 * Xcode 5.0 or later
 * iOS 7.0 or later
 * [CocoaPods](http://cocoapods.org)
 
-##Usage
+## Usage
 
 If you'd like to include this component as a pod using CocoaPods, just add the following line to your Podfile:
 
 `pod "LPLjubljanaCarParksFunctions"`
 
-##ARC
+## ARC
 
 LPLjubljanaCarParksFunctions uses ARC (Automatic Reference Counting).
 
@@ -77,10 +77,10 @@ https://github.com/AFNetworking/AFNetworking
 }
 ```
 
-##License
+## License
 
 This code is distributed under the terms and conditions of the [MIT license](https://github.com/luka1995/LPLjubljanaCarParksFunctions/blob/master/LICENSE).
 
-##Change log
+## Change log
 
 A brief summary of each LPLjubljanaCarParksFunctions release can be found on the [wiki](https://github.com/luka1995/LPLjubljanaCarParksFunctions/wiki/Change-log).
